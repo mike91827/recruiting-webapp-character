@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import { ATTRIBUTE_LIST, CLASS_LIST, SKILL_LIST } from './consts.js';
+import CharacterCreator from './components/CharacterCreator.js';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <button>+</button>
           <button>-</button>
         </div>
+        <CharacterCreator/>
       </section>
     </div>
   );
